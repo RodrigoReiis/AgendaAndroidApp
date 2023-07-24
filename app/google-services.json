@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "877860299385",
+    "project_id": "servicescheduling-1596e",
+    "storage_bucket": "servicescheduling-1596e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877860299385:android:1d2861e43b27a404feeaa8",
+        "android_client_info": {
+          "package_name": "com.example.agendamentoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877860299385-1lva499juvk27qobhehuva9rkj1r7bfh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo_LixpEEx5EIqvGpSeySXUc88uZbMFhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877860299385-1lva499juvk27qobhehuva9rkj1r7bfh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

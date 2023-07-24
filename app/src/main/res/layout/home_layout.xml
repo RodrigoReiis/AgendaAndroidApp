@@ -13,14 +13,10 @@
         android:background="@color/design_default_color_secondary"
         home:menu="@menu/top_app_bar_menu"/>
 
-
-    <ScrollView
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <ListView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-        </ListView>
-    </ScrollView>
+        android:layout_height="match_parent"
+        android:id="@+id/listSchedule">
+    </androidx.recyclerview.widget.RecyclerView>
 
 </LinearLayout>
