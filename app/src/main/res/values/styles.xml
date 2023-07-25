@@ -7,4 +7,6 @@
         name="appAgend"
         parent="Theme.AppCompat.Light.DarkActionBar">
     </style>
+    <style name="materialComponentsStyle"
+        parent="Theme.MaterialComponents"></style>
 </resources>
