@@ -8,7 +8,7 @@
         android:id="@+id/navigation"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:background="@color/design_default_color_secondary"
+        android:background="#194dca"
         home:menu="@menu/top_app_bar_menu"
         home:layout_constraintBottom_toBottomOf="parent" />
 

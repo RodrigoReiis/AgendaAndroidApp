@@ -8,20 +8,84 @@
     <include layout="@layout/background_list_agendamentos"
         android:id="@+id/bgListAgendamentos"></include>
 
-    <androidx.recyclerview.widget.RecyclerView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/listSchedule">
-    </androidx.recyclerview.widget.RecyclerView>
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/coner_radius_backgrond_white"
+            android:layout_marginTop="70dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:textSize="20dp"
+                    android:text="Fevereiro"
+                    android:textColor="@color/black">
+
+                </TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="22"
+                    android:textSize="50dp"
+                    android:textFontWeight="900"
+                    android:textColor="#ff5733">
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-40dp">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="190dp"
+                    android:layout_height="390dp"
+                    home:cardBackgroundColor="#1957ec"
+                    home:cardCornerRadius="15dp"
+                    home:cardElevation="16dp"
+                    android:layout_marginLeft="5dp"
+                    home:cardUseCompatPadding="true">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/listSchedule"
+                        android:textAlignment="center">
+                    </androidx.recyclerview.widget.RecyclerView>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Hoje você possui 2 agendamentos"
+                android:textColor="@color/black">
+
+            </TextView>
+        </LinearLayout>
+
+    </LinearLayout>
 
     <include layout="@layout/background_and_button_agendamento"
         android:id="@+id/buttonAdd"></include>
 
-    <include layout="@layout/bottom_navigation"
-        android:id="@+id/bottomNavigationHome"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
-        android:layout_alignParentBottom="true" ></include>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

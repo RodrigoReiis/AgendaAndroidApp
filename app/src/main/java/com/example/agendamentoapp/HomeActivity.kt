@@ -19,8 +19,8 @@ class HomeActivity :  ComponentActivity() {
 
         val itemList = listOf(
             ListaAgendamentos("20/12/1994 20:00", "Aceito", "Rodrigo"),
-            ListaAgendamentos("20/12/1994 20:00", "Aceito", "Rodrigo"),
-            ListaAgendamentos("20/12/1994 20:00", "Aceito", "Rodrigo"),
+            //ListaAgendamentos("20/12/1994 20:00", "Aceito", "Rodrigo"),
+            //ListaAgendamentos("20/12/1994 20:00", "Aceito", "Rodrigo"),
         )
 
         val recycleView: RecyclerView = findViewById<RecyclerView>(R.id.listSchedule);

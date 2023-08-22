@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="#232bfc" /> <!-- Define a cor de fundo do LinearLayout -->
+    <solid android:color="#1957ec" /> <!-- Define a cor de fundo do LinearLayout -->
     <corners android:topLeftRadius="150dp" /> <!-- Define o raio dos cantos arredondados -->
 </shape>
